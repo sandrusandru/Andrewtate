@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@700&family=Martian+Mono:wght@500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.logo{
+    width: 100px;
+    height: auto;
+}
+nav ul{
+list-style-type: none;
+background-color:#2d3436;
+width: 100vw;
+height: 80px;
+
+}
+li{
+   display: inline;
+   margin-top: 25px;
+   float: right;
+}
+li a{
+    text-decoration: none;
+    margin-right: 50px;
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: 0.3s;
+    position: relative;
+}
+ a:after{
+    content: "";
+    position: absolute;
+    background-color: #ff4757;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+a:hover:after{
+    width: 100%;
+}
+li a:hover{
+    color: yellow;
+}
+
+header img{
+    margin-left:-119px;
+    position: fixed;
+    width:100%;
+}
+header{
+    position: relative;
+}
+.textcontent{
+    position: absolute;
+    color: white;
+    margin: 150px 0 0 60px;
+}
+.textcontent p{
+    line-height:28px;
+    font-size: 11px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Martian Mono', monospace;
+}
+.textcontent h1{
+     font-family: 'Dela Gothic One', cursive;
+}
+.buttons{
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.buttons button{
+   height: 40px;
+   width: 130px;
+   font-weight: bold;
+   border-radius: 20px;
+   outline: none;
+   border: none ;
+   transition: 0.3s;
+}
+.buttons button:hover{
+    background-color: black;
+    color: white;
+}
+span{
+    color: yellow;
+}
+.success{
+    border-bottom: 3px solid yellow;
+    max-width: 350px;
+}
